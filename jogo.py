@@ -1,5 +1,5 @@
 import random
-numero_secreto = random.randint(1, 10)
+numero_secreto = random.randint(1, 100)
 tentativas = 0
 print("Olá, M-Monteiro-prog! Bem-vindo...")
 while True:
