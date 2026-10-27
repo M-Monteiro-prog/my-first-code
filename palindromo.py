@@ -1,5 +1,3 @@
-print("Olá, M-Monteiro-prog! Bem-vindo ao programa de verificação de palíndromos!")
-print("Digite uma palavra ou frase para verificar se é um palíndromo:")
 
 while True:
     texto = input("Digite o texto (ou 'sair' para encerrar): ")
@@ -12,6 +10,7 @@ while True:
     quantidade_letras = len(texto_limpo)
 
     if texto_limpo == texto_invertido:
-        print(f"O texto '{texto}' é um palíndromo!")
+        print(f"O texto '{texto}' é um palíndromo! (Ele tem {quantidade_letras} letras)")
     else:
-        print(f"O texto '{texto}' não é um palíndromo.")
+       print(f"O texto '{texto}' não é um palíndromo. (Ele tem {quantidade_letras} letras)")
+    
