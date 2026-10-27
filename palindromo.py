@@ -1,4 +1,4 @@
-texto = "vscode" 
+texto = input("Digite um texto para verificar se é um palíndromo: ") 
 texto_limpo = texto.lower().replace(" ","")
 texto_invertido = texto_limpo[::-1]
 if texto_limpo == texto_invertido:
