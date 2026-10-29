@@ -1,3 +1,5 @@
+import os
+
 print("Bem-vindo M-Monteiro-prog! esse é o seu verificador de palíndromos!")
 print("Digite 'sair' a qualquer momento para encerrar o programa.")
 
@@ -9,6 +11,9 @@ while True:
     texto = input("Digite o texto (ou 'sair' para encerrar): ")
 
     if texto.lower()== "sair":
+
+        os.system('cls' if os.name == 'nt' else 'clear')
+
         print(f"Você testou {len(historico_de_palavras)} palavras no total.")
         print("Palavras testadas:")
         for item in historico_de_palavras:
