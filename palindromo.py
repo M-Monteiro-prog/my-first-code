@@ -42,3 +42,4 @@ while True:
     else:
         palavras_não_palindromas.append(texto)
         print(f"O texto '{texto}' não é um palíndromo. (Ele tem {quantidade_letras} letras)")
+        print(f"A versão invertida do texto é: '{texto_invertido}'")
